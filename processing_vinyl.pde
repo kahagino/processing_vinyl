@@ -33,12 +33,13 @@ void setup() {
   
   // create a disk with radius, angular speed, max furrow size, font size
   // values are given here for a 60 seconds audio
-  disk = new Disk(228, 0.06, 7, 32);
+  disk = new Disk(228, 0.04, 7, 32);
   // create arm that will follow disk/audio position
   arm = new Arm(disk.MAX_RADIUS);
 
   if (RECORD_VIDEO) {
     videoExport = new VideoExport(this, "raw_output.mp4");
+    videoExport.setFrameRate(30.0);
     videoExport.startMovie();
   }
   
