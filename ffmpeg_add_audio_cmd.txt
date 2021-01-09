@@ -1,0 +1,1 @@
+ffmpeg -i raw_output.mp4 -i audio.wav -c:v copy -c:a libvorbis -map 0:v:0 -map 1:a:0 exported_video.mp4
