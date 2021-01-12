@@ -4,7 +4,7 @@
 
 String filename = "audio.wav"; // replace this line by your audio file name
 
-boolean RECORD_VIDEO = true; // Put true here and a video will be generated in the
+boolean RECORD_VIDEO = true;  // Put true here and a video will be generated in the
                               // project directory.
                               // Video stops automaticaly at end of song
                               // you can use <q> to stop it at any time
