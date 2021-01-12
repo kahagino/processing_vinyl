@@ -1,7 +1,7 @@
 /* processing sketch to draw a vinyl-like visualization from a song on your
 computer */
 
-String filename = "audio.wav"; // replace this line by your audio file name
+String filename = "resources/audio.wav"; // replace this line by your audio file name
 
 import processing.sound.*;
 Amplitude amp;
@@ -17,7 +17,7 @@ void setup() {
   frameRate(60);
   size(512, 512, P2D);
   smooth(8); // antialiasing
-  backgd = loadImage("coolHue-43CBFF-9708CC.png");
+  backgd = loadImage("resources/coolHue-43CBFF-9708CC.png");
 
   // create a disk with radius, angular speed, max furrow size, font size
   // values are given here for a 60 seconds audio

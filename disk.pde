@@ -25,7 +25,7 @@ class Disk {
     angle = 0.0;
     radius = MAX_RADIUS;
 
-    custom_font = createFont("Cyberpunk.ttf", FONT_SIZE);
+    custom_font = createFont("resources/Cyberpunk.ttf", FONT_SIZE);
 
     vertexs = new ArrayList<PVector>();
   }
